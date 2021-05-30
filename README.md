@@ -16,5 +16,5 @@ Dévellopée en kotlin, elle nous fait découvrir pleins de recettes de cuisine.
 ## Fonctionnalités: 
 
 ### Premier écran 
-<img src="\img_readme/1.jpeg" width= 325>
+<img src="img_readme/1.jpeg" width= 325>
 
