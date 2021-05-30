@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.codingwithme.recipeapp.R
 import com.codingwithme.recipeapp.entities.MealsItems
-import com.codingwithme.recipeapp.entities.Recipes
 import kotlinx.android.synthetic.main.item_rv_main_category.view.*
 
 class SubCategoryAdapter: RecyclerView.Adapter<SubCategoryAdapter.RecipeViewHolder>() {

@@ -17,38 +17,32 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="@dimen/_20sdp"
-        android:layout_marginStart="@dimen/_20sdp"
-        android:padding="@dimen/_5sdp"
-        android:gravity="center">
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="325dp"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp">
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:text="Découvrir nos recettes"
+            android:textColor="@color/white"
+            android:visibility="invisible" />
 
         <ProgressBar
+            android:id="@+id/loader"
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:layout_gravity="center"
-            android:outlineAmbientShadowColor="@color/brown"
-            android:id="@+id/loader"/>
+            android:outlineAmbientShadowColor="@color/brown" />
 
     </FrameLayout>
-
-    <Button
-        android:id="@+id/btnGetStarted"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="327dp"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="356dp"
-        android:background="@drawable/btn_bg"
-        android:paddingStart="@dimen/_30sdp"
-        android:paddingEnd="@dimen/_30sdp"
-        android:text="Découvrir nos recettes"
-        android:textColor="@color/white"
-        android:visibility="visible" />
 
 
 </RelativeLayout>

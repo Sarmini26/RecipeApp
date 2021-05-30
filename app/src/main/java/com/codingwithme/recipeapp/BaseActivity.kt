@@ -1,7 +1,5 @@
 package com.codingwithme.recipeapp
 
-import android.app.job.JobInfo
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.coroutines.CoroutineScope

@@ -1,16 +1,13 @@
 package com.codingwithme.recipeapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.codingwithme.recipeapp.adapter.MainCategoryAdapter
 import com.codingwithme.recipeapp.adapter.SubCategoryAdapter
 import com.codingwithme.recipeapp.database.RecipeDatabase
-import com.codingwithme.recipeapp.entities.Category
 import com.codingwithme.recipeapp.entities.CategoryItems
 import com.codingwithme.recipeapp.entities.MealsItems
-import com.codingwithme.recipeapp.entities.Recipes
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.coroutines.launch
 
@@ -25,14 +22,10 @@ class HomeActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-
         getDataFromDb()
 
         mainCategoryAdapter.setClickListener(onCLicked)
         subCategoryAdapter.setClickListener(onCLickedSubItem)
-
-
-
 
     }
 
@@ -62,8 +55,6 @@ class HomeActivity : BaseActivity() {
                 rv_main_category.layoutManager = LinearLayoutManager(this@HomeActivity,LinearLayoutManager.HORIZONTAL,false)
                 rv_main_category.adapter = mainCategoryAdapter
             }
-
-
         }
     }
 
@@ -77,8 +68,6 @@ class HomeActivity : BaseActivity() {
                 rv_sub_category.layoutManager = LinearLayoutManager(this@HomeActivity,LinearLayoutManager.HORIZONTAL,false)
                 rv_sub_category.adapter = subCategoryAdapter
             }
-
-
         }
     }
 }

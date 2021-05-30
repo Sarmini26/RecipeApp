@@ -1,7 +1,6 @@
 package com.codingwithme.recipeapp.interfaces
 
 import com.codingwithme.recipeapp.entities.Category
-import com.codingwithme.recipeapp.entities.CategoryItems
 import com.codingwithme.recipeapp.entities.Meal
 import com.codingwithme.recipeapp.entities.MealResponse
 import retrofit2.Call
