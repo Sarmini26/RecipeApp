@@ -18,3 +18,13 @@ Dévellopée en kotlin, elle nous fait découvrir pleins de recettes de cuisine.
 ### Premier écran 
 <img src="img_readme/1.png" width= 325>
 
+### Ecran liste
+<img src="img_readme/2.png" width= 325>
+
+### Ecran détaillé
+<img src="img_readme/3.png" width= 325> <img src="img_readme/4.png" width= 325>
+
+
+
+
+
